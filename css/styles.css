@@ -2,6 +2,10 @@
 :root{
     --brand-color: #404BBF;
     --title-color: #2E2F42;
+    --heading-color: #FFFFFF;
+    --address-color: #434455;
+    --button-color: #4D5AE5;
+    --button-background: #F4F4FD;
 }
 
 .body{
@@ -46,7 +50,7 @@ a {text-decoration: none;}
 }
 
 .address{
-    color: #434455;
+    color: var(--address-color);
     font-style: normal;
     font-size: 16px;
     font-weight: 400;
@@ -63,7 +67,7 @@ a {text-decoration: none;}
 /* main */
 /*section_1*/
 .hero-section{
-    color: #FFFFFF;
+    color: var(--heading-color);
     background: var(--title-color);
     font-style: normal;
     font-size: 56px;
@@ -73,7 +77,7 @@ a {text-decoration: none;}
 
 .button{
     cursor: pointer;
-    color: #FFFFFF;
+    color: var(--heading-color);
     background: #4D5AE5;
     font-style: normal;
     font-weight: 500;
@@ -121,7 +125,7 @@ a {text-decoration: none;}
 /* footer */
 .text-footer{
     background-color: var(--title-color);
-    color: #FFFFFF;
+    color: var(--heading-color);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -140,3 +144,117 @@ a {text-decoration: none;}
 
 /* стилізація portfolio.html */
 
+.body-portfolio{
+    font-family: 'Roboto','Golos Text', sans-serif;
+    color: var(--title-color);
+}
+
+.link{
+    font-family: 'Raleway', sans-serif;
+    color: var(--title-color);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.link-logo{
+    font-family: 'Raleway', sans-serif;
+    color: #4D5AE5;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.page-portfolio{
+    color: var(--title-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.page-portfolio:hover{
+    color: var(--brand-color);
+}
+
+.page-portfolio:focus{
+    color: var(--brand-color);
+}    
+
+.address-portfolio{
+    color: var(--address-color);
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.address-portfolio:hover{
+    color: var(--brand-color);
+}
+
+.address-portfolio:focus{
+    color: var(--brand-color);
+}
+
+.button-filtre{
+    cursor: pointer;
+    color: var(--button-color);
+    background: var(--button-background);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.button-filtre:hover{
+    color: var(--heading-color);
+    background-color: var(--brand-color);
+}
+
+.button-filtre:focus{
+    color: var(--heading-color);
+    background-color: var(--brand-color);
+}
+
+.title-filtre{
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.text-filtre{
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.link-footer{
+    font-family: 'Raleway', sans-serif;
+    color: var(--title-color);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+}
+
+.link-web{
+    font-family: 'Raleway', sans-serif;
+    color: #4D5AE5;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+}
+
+.text-footer-portfolio{
+    background-color: var(--title-color);
+    color: var(--heading-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
