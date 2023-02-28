@@ -18,27 +18,33 @@ a {text-decoration: none;}
 .link-page{
     font-family: 'Raleway', sans-serif;
     color: var(--title-color);
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.3;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .link-icon{
     font-family: 'Raleway', sans-serif;
-    color: #4D5AE5;
-    font-style: normal;
+    color: var(--button-color);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.3;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .page {
     color: var(--title-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .page:hover{
@@ -55,6 +61,7 @@ a {text-decoration: none;}
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .address:hover{
@@ -66,23 +73,29 @@ a {text-decoration: none;}
 }
 /* main */
 /*section_1*/
+
+.hero{
+    background: var(--title-color);
+}
+
 .hero-section{
     color: var(--heading-color);
-    background: var(--title-color);
-    font-style: normal;
     font-size: 56px;
-    font-weight: 700;
     line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .button{
     cursor: pointer;
     color: var(--heading-color);
-    background: #4D5AE5;
-    font-style: normal;
+    background: var(--button-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
 }
 
 .button:hover{
@@ -91,45 +104,89 @@ a {text-decoration: none;}
 }
 /* section_2 */
 .title-list{
-    font-style: normal;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .list{
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 /* section_3 */
 .title-item{
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
+
+/* section_4 */
+
 .subject{
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize
 }
-/* section_4 */
+
 .subtitle {
-    font-style: normal;
     font-size: 20px;
     line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
+
+.text{
+    color: var(--address-color);
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
 /* footer */
-.text-footer{
+
+.footer{
     background-color: var(--title-color);
+}
+
+.text-footer{
     color: var(--heading-color);
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.link-footer-page{
+    font-family: 'Raleway', sans-serif;
+    color: var(--button-background);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.link-footer-icon{
+    font-family: 'Raleway', sans-serif;
+    color: var(--button-color);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 
@@ -152,27 +209,33 @@ a {text-decoration: none;}
 .link{
     font-family: 'Raleway', sans-serif;
     color: var(--title-color);
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.3;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .link-logo{
     font-family: 'Raleway', sans-serif;
-    color: #4D5AE5;
-    font-style: normal;
+    color: var(--button-color);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.3;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .page-portfolio{
     color: var(--title-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .page-portfolio:hover{
@@ -189,6 +252,7 @@ a {text-decoration: none;}
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .address-portfolio:hover{
@@ -203,10 +267,13 @@ a {text-decoration: none;}
     cursor: pointer;
     color: var(--button-color);
     background: var(--button-background);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
 }
 
 .button-filtre:hover{
@@ -220,41 +287,51 @@ a {text-decoration: none;}
 }
 
 .title-filtre{
-    font-style: normal;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .text-filtre{
-    font-style: normal;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.footer-portfolio{
+    background-color: var(--title-color);
+}
+
+.text-footer-portfolio{
+    color: var(--heading-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .link-footer{
     font-family: 'Raleway', sans-serif;
-    color: var(--title-color);
-    font-style: normal;
+    color: var(--button-background);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .link-web{
     font-family: 'Raleway', sans-serif;
-    color: #4D5AE5;
-    font-style: normal;
+    color: var(--button-color);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-.text-footer-portfolio{
-    background-color: var(--title-color);
-    color: var(--heading-color);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-}
